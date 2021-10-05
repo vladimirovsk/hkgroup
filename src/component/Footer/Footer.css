@@ -1,0 +1,42 @@
+.title-contact{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(1em + 0.8vw);
+    margin-bottom: 1em;
+}
+
+.container-footer {
+    margin-bottom: 1em;
+}
+
+.footer-text {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(0.6em + 0.6vw);
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+.footer-link-email:visited {
+    color: black;
+}
+.footer-link-email:focus-visible {
+    color: black;
+}
+
+.footer-link-email:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-link-email {
+    color: black;
+}

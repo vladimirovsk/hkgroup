@@ -1,0 +1,29 @@
+
+.scontactuy-title{
+    margin-top: 3em;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.button-send-email{
+    font-size: 1.6em;
+    margin-top: 2em;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.edit-send {
+    font-size: 1.6em;
+    margin-top: 1em;
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.input-form {
+    width:70%;
+    margin: auto;
+    padding-bottom: 2em;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+.root{
+
+}
+
+.titlePage {
+    background-color: #F1F1F1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vh;
+    letter-spacing: 10px;
+}
+
+.cart-invest {
+    cursor: pointer;
+    margin: auto;
+    flex: auto;
+    justify-content: right;
+    z-index:0;
+    left: 0px;
+    top: 0px;
+}
+
+.cart-invest-logo {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.bg-img-sqr{
+    margin: auto;
+    width: 20em;
+    transition: background-color 1s ease;
+}
+
+.bg-color-sqr{
+    height: 100%;
+    width: 100%;
+    /*transition: background-color 1s ease;*/
+    transition: background-color 1s linear;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.bg-color-sqr:hover{
+    /*transition: background-color 1s ease;*/
+    /*background-color: rgba(255,255,255,0);*/
+    /*background-color: rgba(255,255,255,0.6);*/
+    transition: background-color 0.5s linear;
+    background-color: rgba(255,255,255,0);
+}
+
+.bg-image-card {
+    /*width: 500px;*/
+    height: 400px;
+    /*background-repeat: no-repeat;*/
+    /*transition: 1000ms opacity ease;*/
+    /*-webkit-transition: 1000ms opacity ease;*/
+}
+
+.img-circle{
+    z-index:3000;
+    margin-top:-100px;
+    left:0;
+    top:0;
+}
+
+.img-circle:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px #313030);
+    filter: drop-shadow(5px 5px 5px #313030);
+
+}
+
+.title-zaprasham {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+}
+

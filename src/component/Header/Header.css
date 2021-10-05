@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.Header {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.brandLogo{
+    left:102px;
+    width:120px;
+    height:102px;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.dropdown-item{
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+
+}
+
+.dropdown-item:hover{
+    border-bottom:2px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav-link{
+    margin-right: 40px;
+}
+
+.nav-link:hover{
+    border-bottom:2px solid black;
+}
+
+.navbar {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+
+    margin:auto;
+    flex: auto;
+    justify-content:center;
+    letter-spacing: 4px;
+}
+
+/*
+@media (min-width: 1020px) {
+  .navbar {
+    height: 30px;
+  }
+} */
+
+

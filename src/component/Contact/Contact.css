@@ -1,0 +1,109 @@
+.Contact {
+	color: #FFFFFF;
+}
+
+/*.check-point {*/
+/*	list-style: none;*/
+/*	float: left;*/
+/*	font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
+/*	font-size: 1.2rem;*/
+/*	margin-left: 2em;*/
+/*	margin-right: 2em;*/
+/*	margin-top: 2em;*/
+/*}*/
+
+.contact-ul {
+	padding: 0;
+	margin-top: 0.5em;
+	list-style-type: none;
+	font-size: 1.2em;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.contact-li{
+	margin-top: 0.4em;
+}
+
+.contact-li-title{
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+.contact-li-name{
+	font-weight: 600;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-size: 0.8em;
+}
+
+.contact-li-phone{
+	font-size: 0.8em;
+}
+
+
+
+.card-phones {
+	border-right-style: solid;
+	border-color: white;
+	border-width: 2px;
+
+}
+
+.contact-address-card {
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	margin-top: 1em;
+	color: #FFFFFF;
+}
+
+.contact-title-card {
+	margin-top: 1em;
+	font-family: 'Work Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: #FFFFFF;
+	font-size: calc(0.8em + 0.5vw);
+	align-content: center;
+}
+
+.column-contact {
+	margin: auto;
+	width: 620px;
+	/*height: 320px;*/
+	background-color: #595959;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.column-image-contact {
+	margin: auto;
+	width: 620px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 1em;
+}
+
+.cart-logo{
+	background-color: #F1F1F1;
+}
+
+.link-email:visited {
+	color: white;
+}
+.link-email:focus-visible {
+	color: white;
+}
+
+
+.link-email:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.link-email {
+	color: white;
+}
