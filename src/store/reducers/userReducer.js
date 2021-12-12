@@ -2,8 +2,7 @@ import {USER_EDIT,
     USER_INSERT,
     USER_DELETE,
     USERS_FETCH,
-    USER_SELECT
-} from "../action/actionTypes";
+    USER_SELECT} from "../action/actionTypes";
 
 const initialState = {
     items: [],

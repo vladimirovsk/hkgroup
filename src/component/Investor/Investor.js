@@ -21,7 +21,7 @@ import Slide5 from "./image5.png";
 
 function Investor() {
 
-    const Caption = "HK Group powstało w odpowiedz na zapotrzebowanie rynku na nieruchomości o podwyższonym standardzie w kameralnych lokalizacjach"
+    const Caption = "HK Group powstało w odpowiedzi na zapotrzebowanie rynku na nieruchomości o podwyższonym standardzie w kameralnych lokalizacjach"
 
     const imageData = [
         Slide1,
@@ -44,7 +44,7 @@ function Investor() {
          </div>
              <Container fluid={true}>
              <Row lg={12} md={6}>
-                 <Col lg={6} md={3} className={'cart-invest'} onClick={()=>openNewWindow('https://poleska.webnit.pl')}>
+                 <Col lg={6} md={3} className={'cart-invest'} onClick={()=>openNewWindow('https://poleska.hkgroup.pl/')}>
                      <img className={'bg-img-sqr'} src={poleskaLogo} alt={''}></img>
                      <div className={'bg-image-card'} style={{
                          backgroundImage: `url('${image1}')`,

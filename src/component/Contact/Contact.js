@@ -19,9 +19,9 @@ function Contact() {
 					</div>
 					<div className={"contact-text-card text-left"}>
 						<ul className={'contact-ul'}>
-							<li className={'contact-li'}>NIP: 676 257 74 39</li>
-							<li className={'contact-li'}>REGON: 385 482 503</li>
-							<li className={'contact-li'}>KRS: 000 082 76 12</li>
+							<li className={'contact-li'}>NIP: 6762577439</li>
+							<li className={'contact-li'}>REGON: 385482503</li>
+							<li className={'contact-li'}>KRS: 0000827612</li>
 						</ul>
 					</div>
 				</Col>

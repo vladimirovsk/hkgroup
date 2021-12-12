@@ -4,6 +4,7 @@ import logo from '../../image/logo.svg'
 import {Envelope, TelephoneFill, GeoAlt} from 'react-bootstrap-icons';
 
 import './Footer.css'
+import FloatButton from "../FloatButton/FloatButton";
 
 function Footer() {
 
@@ -17,9 +18,9 @@ function Footer() {
 					<div className={'ml-3'}>30-383 Kraków</div>
 				</Col>
 				<Col sm={12} lg={4} className={'mt-2'}>
-					NIP: 676 257 74 39 <br/>
-					REGON: 385 482 503<br/>
-					KRS: 000 082 76 12
+					NIP: 6762577439 <br/>
+					REGON: 385482503<br/>
+					KRS: 0000827612
 				</Col>
 
 				<Col sm={12} lg={4} className={'mt-2'}>
@@ -55,6 +56,7 @@ function Footer() {
 					<img src={logo} alt={"logo"} width={100}></img>
 				</Col>
 			</Row>
+			<FloatButton />
 		</Container>
 	)
 
