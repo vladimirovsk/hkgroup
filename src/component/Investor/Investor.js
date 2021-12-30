@@ -51,7 +51,7 @@ function Investor() {
                          justifyContent: 'right'}}>
                          <div className={'bg-color-sqr'} />
                      </div>
-                     <div style={{zIndex:100, opacity:1}}>
+                     <div style={{zIndex:100}}>
                          <img className={'img-circle'} src={circle} alt={'circle'} />
                      </div>
 
@@ -62,9 +62,9 @@ function Investor() {
                     <div className={'bg-image-card'} style={{
                          backgroundImage: `url('${image2}')`,
                         justifyContent: 'left'}}>
-                        <div className={'bg-color-sqr'} />
+                        {/*<div className={'bg-color-sqr'} />*/}
                     </div>
-                     <div style={{zIndex:100, opacity:1}}>
+                     <div style={{zIndex:100}}>
                          <img className={'img-circle'} src={circle} alt={'circle'} />
                      </div>
                  </Col>

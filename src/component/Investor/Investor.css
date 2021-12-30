@@ -40,16 +40,16 @@
     height: 100%;
     width: 100%;
     /*transition: background-color 1s ease;*/
-    transition: background-color 1s linear;
-    background-color: rgba(255,255,255,0.6);
+    /*transition: background-color 1s linear;*/
+    background-color: rgba(255,255,255,0);
 }
 
 .bg-color-sqr:hover{
     /*transition: background-color 1s ease;*/
     /*background-color: rgba(255,255,255,0);*/
     /*background-color: rgba(255,255,255,0.6);*/
-    transition: background-color 0.5s linear;
-    background-color: rgba(255,255,255,0);
+    /*transition: background-color 0.5s linear;*/
+    /*background-color: rgba(255,255,255,0.6);*/
 }
 
 .bg-image-card {
@@ -65,11 +65,30 @@
     margin-top:-100px;
     left:0;
     top:0;
+    border-radius: 50%;
+    overflow: hidden;
+    /*transition: opacity 1s linear;*/
+    /*transition: background-color 1s ease;*/
+    /*background-color: rgba(255,255,255,0.5);*/
+    /*opacity: 0.6;*/
+    opacity:0.5;
+    filter:alpha(opacity=50);
+
 }
 
 .img-circle:hover{
-    -webkit-filter: drop-shadow(5px 5px 5px #313030);
-    filter: drop-shadow(5px 5px 5px #313030);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity:1;
+    filter:alpha(opacity=100);
+
+    /*background-color: rgba(255,255,255,1);*/
+    /*-webkit-transition: 1000ms opacity ease;*/
+    /*-webkit-filter: drop-shadow(5px 5px 5px #555555);*/
+    /*filter: drop-shadow(5px 5px 5px #313030);*/
 
 }
 
