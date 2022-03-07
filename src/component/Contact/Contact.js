@@ -1,10 +1,18 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 import {Envelope, TelephoneFill, GeoAlt} from 'react-bootstrap-icons';
 
 import './Contact.css'
 import image1 from "./image1.jpg";
 import imageLogo from "../../image/logo.svg"
+
+import FacebookImage from './img/facebookWhite.png';
+import InstagramImage  from  './img/instagramWhite.png';
+
+const FacebookUrl = 'https://www.facebook.com/hkgroup.deweloper';
+
+const InstagramUrl = 'https://www.instagram.com/hkgroup.deweloper/';
+
 
 function Contact() {
 	return (
@@ -78,6 +86,15 @@ function Contact() {
 										<a className={'link-email'} href="mailto:biuro@hkgroup.pl">
 											biuro@hkgroup.pl
 										</a>
+									</li>
+									<li className={'mt-3'}>
+										<div><a className={'footer-lik-email mr-3'} href={FacebookUrl}>
+											<Image src={FacebookImage} alt={'Facebook'}/>
+										</a>
+											<a className={'footer-lik-email ml-3'} href={InstagramUrl}>
+												<Image src={InstagramImage} alt={'Instagram'}/>
+											</a>
+										</div>
 									</li>
 								</ul>
 							</Col>
